@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.yes {
+  background-color: #28a745;
+  color: white;
+}
+
+.no {
+  background-color: #dc3545;
+  color: white;
+  position: relative;
+}
+
+img {
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
